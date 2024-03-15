@@ -1,4 +1,4 @@
-package com.emuntiy.rest.webservice.kilqengine;
+package com.emuntiy.rest.webservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
