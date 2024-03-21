@@ -26,7 +26,12 @@ public class HelloWorldController {
 	public HelloWorldBean helloWorldBean() {
 		return new HelloWorldBean("Hello World"); 
 	}
-	
+
+	@GetMapping(path = "/hello-world-bean/{n}")
+	public HelloWorldBean helloWorldBeanPathParam(@PathVariable String n) {
+		return new HelloWorldBean(String.format("Hello World ,%s", n));
+	}
+
 	// Path Parameters
 	// /users/{id}/todos/{id}  => /users/2/todos/200
 	// /hello-world/path-variable/{name}
