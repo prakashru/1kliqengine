@@ -16,6 +16,21 @@ public class functionexampleone {
 
         System.out.println("---Print all even---");
         printAllEvenNumberInFunctionalApproach(List.of(12,3,4,23,232,32,3));
+
+
+        System.out.println("----Print all ODD numbers");
+        printAllOddNumberInFunctionalApproach(List.of(12,3,4,23,232,32,3));
+
+        System.out.println("----Print all Square of Even numbers");
+        printAllQubeOfEvenNumberInFunctionalApproach(List.of(12,3,4,23,232,32,3));
+    }
+
+    private static void printAllQubeOfEvenNumberInFunctionalApproach(List<Integer> integers) {
+        integers.stream().filter(n->n%2!=0).map(n->n*n).forEach(System.out::println);
+    }
+
+    private static void printAllOddNumberInFunctionalApproach(List<Integer> integers) {
+        integers.stream().filter(n->n%2!=0).forEach(System.out::println);
     }
 
     private static boolean isEven(int n){
