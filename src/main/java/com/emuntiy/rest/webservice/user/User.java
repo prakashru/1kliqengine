@@ -12,10 +12,10 @@ import java.time.LocalDate;
 public class User {
     private Integer id;
 
-    @Size(min = 5)
+    @Size(min = 5, message = "Name should be minimum 5 characters")
     private String name;
 
-    @Past
+    @Past(message="Birthdate should be in past date")
     private LocalDate birthDate;
 
 
