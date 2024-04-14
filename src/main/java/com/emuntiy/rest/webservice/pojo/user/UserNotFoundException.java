@@ -1,4 +1,4 @@
-package com.emuntiy.rest.webservice.user;
+package com.emuntiy.rest.webservice.pojo.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

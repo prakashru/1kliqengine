@@ -1,4 +1,4 @@
-package com.emuntiy.rest.webservice.user;
+package com.emuntiy.rest.webservice.pojo.user;
 
 import jakarta.validation.constraints.Past;
 import jakarta.validation.constraints.Size;

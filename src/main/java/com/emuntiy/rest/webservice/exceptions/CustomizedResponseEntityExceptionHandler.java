@@ -1,7 +1,7 @@
 package com.emuntiy.rest.webservice.exceptions;
 
 //import com.in28minutes.rest.webservices.restfulwebservices.user.UserNotFoundException;
-import com.emuntiy.rest.webservice.user.UserNotFoundException;
+import com.emuntiy.rest.webservice.pojo.user.UserNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
